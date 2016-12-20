@@ -1,16 +1,24 @@
-# built application files
+
+# files for the dex VM
+# Built application files
 *.apk
 *.ap_
 
-# files for the dex VM
+# Files for the ART/Dalvik VM
+>>>>>>> d7fbda421fd617604246dba92934f0f646637c8c
 *.dex
 
 # Java class files
 *.class
 
-# generated files
+# Generated files
 bin/
 gen/
+out/
+
+# Gradle files
+.gradle/
+build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -41,3 +49,15 @@ gradlew.bat
 /freeline_core
 *.py
 *.json
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Keystore files
+*.jks
